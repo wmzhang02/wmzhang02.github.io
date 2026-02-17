@@ -17,13 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-WeimingZhang is a studen.
+I am currently a second-year Master's student at the School of Computer Science, Shanghai Jiao Tong University (SJTU). I am a member of the <a href="https://apex.sjtu.edu.cn/">APEX Lab</a>, privileged to be advised by <a href="https://apex.sjtu.edu.cn/members/yyu">Prof. Yong Yu</a> and <a href="https://wnzhang.net/">Prof. Weinan Zhang</a>. Prior to this, I obtained my Bachelor's degree in Computer Science and Technology from SJTU in 2024.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>google scholar citations <strong><span id='total_cit'>100+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests primarily focus on **(M)LLM-based Agents**, **LLM Reasoning**, and **Data Mining**. You can find my publications on <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>Google Scholar</a>.
+
+<!-- My research interests primarily focus on (M)LLM-based Agent, LLM Reasoning, and Data Mining. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>google scholar citations <strong><span id='total_cit'>100+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
-- Coming soom...
+- *2025.10*: Our technical report about OS agent "[**ColorAgent**: Building A Robust, Personalized, and Interactive OS Agent](https://arxiv.org/abs/2510.19386)" has been released on arXiv.
+- *2025.08*: Our paper "[**NL-Debugging**: Exploiting Natural Language as an Intermediate Representation for Code Debugging](https://aclanthology.org/2025.emnlp-main.80/)" is accepted to **EMNLP 2025**! See you in Suzhou, China! 🇨🇳
+- *2025.08*: Our paper "[**LLM4CD**: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)" is accepted to **CIKM 2025**! See you in Seoul, South Korea! 🇰🇷
 
 # 📝 Publications 
 

@@ -73,8 +73,8 @@ Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, **Weiming Zhang**, Longteng 
 Qingyao Li, Lingyue Fu, **Weiming Zhang**, Xianyu Chen, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu  
 *Preprint on arXiv, 2024*
 
-<br>
-<small>(* denotes equal contribution)</small>
+<!-- <br>
+<small>(* denotes equal contribution)</small> -->
 
 # 🎖 Honors and Awards
 - *2025*, **National Scholarship** (Highest honor for graduate students in China).

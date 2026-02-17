@@ -33,8 +33,16 @@ My research interests primarily focus on **(M)LLM-based Agents**, **LLM Reasonin
 
 ## (M)LLM Agents
 
+[**Plan-MCTS: Plan Exploration for Action Exploitation in Web Navigation**](https://arxiv.org/abs/2602.14083)  
+**Weiming Zhang**, Jihong Wang, Jiamu Zhou, Qingyao Li, Xinbei Ma, Congmin Zheng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Jun Wang, Yong Yu, Weinan Zhang  
+*Preprint on arXiv, 2026*
+
+[**ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution**](https://arxiv.org/abs/2601.07262)  
+Jihong Wang, Jiamu Zhou, **Weiming Zhang**, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang  
+*Preprint on arXiv, 2026*
+
 [**ColorAgent: Building A Robust, Personalized, and Interactive OS Agent**](https://arxiv.org/abs/2510.19386)  
-Ning Li, Qiqiang Lin, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang  
+Ning Li*, Qiqiang Lin*, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang  
 *Preprint on arXiv, 2025*
 
 ## LLM for Code
@@ -43,11 +51,27 @@ Ning Li, Qiqiang Lin, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmo
 **Weiming Zhang\***, Qingyao Li*, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
 *The 2025 Conference on Empirical Methods in Natural Language Processing (**EMNLP 2025**)*
 
+[**LogitsCoder: Towards Efficient Chain-of-Thought Path Search via Logits Preference Decoding for Code Generation**](https://arxiv.org/abs/2602.14054)  
+Jizheng Chen*, **Weiming Zhang\***, Xinyi Dai, Weiwen Liu, Kounianhua Du, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
+*Preprint on arXiv, 2026*
+
+[**DebateCoder: Towards Collective Intelligence of LLMs via Test Case Driven LLM Debate for Code Generation**](https://aclanthology.org/2025.acl-long.589/)  
+Jizheng Chen, Kounianhua Du, Xinyi Dai, **Weiming Zhang**, Xihuai Wang, Yasheng Wang, Ruiming Tang, Weinan Zhang, Yong Yu  
+*The 63rd Annual Meeting of the Association for Computational Linguistics (**ACL 2025**)*
+
+[**Codeapex: A bilingual programming evaluation benchmark for large language models**](https://arxiv.org/abs/2309.01940)  
+Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, **Weiming Zhang**, Longteng Fan, Jiayi Lei, Renting Rui, Jianghao Lin, Yuchen Fang, Yifan Liu, Jingkuan Wang, Siyuan Qi, Kangning Zhang, Weinan Zhang, Yong Yu  
+*Preprint on arXiv, 2024*
+
 ## AI Education
 
 [**LLM4CD: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis**](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)  
 **Weiming Zhang**, Lingyue Fu, Qingyao Li, Kounianhua Du, Jianghao Lin, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu  
 *The 34th ACM International Conference on Information and Knowledge Management (**CIKM 2025**)*
+
+[**Adapting large language models for education: Foundational capabilities, potentials, and challenges**](https://arxiv.org/abs/2401.08664)  
+Qingyao Li, Lingyue Fu, **Weiming Zhang**, Xianyu Chen, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu  
+*Preprint on arXiv, 2024*
 
 <br>
 <small>(* denotes equal contribution)</small>

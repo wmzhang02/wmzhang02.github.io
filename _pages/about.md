@@ -29,21 +29,28 @@ My research interests primarily focus on **(M)LLM-based Agents**, **LLM Reasonin
 - *2025.08*: Our paper "[**NL-Debugging**: Exploiting Natural Language as an Intermediate Representation for Code Debugging](https://aclanthology.org/2025.emnlp-main.80/)" is accepted to **EMNLP 2025**! See you in Suzhou, China! 🇨🇳
 - *2025.08*: Our paper "[**LLM4CD**: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)" is accepted to **CIKM 2025**! See you in Seoul, South Korea! 🇰🇷
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+## (M)LLM Agents
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[**ColorAgent: Building A Robust, Personalized, and Interactive OS Agent**](https://arxiv.org/abs/2510.19386)  
+Ning Li, Qiqiang Lin, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang  
+*Preprint on arXiv, 2025*
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+## LLM for Code
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+[**NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging**](https://aclanthology.org/2025.emnlp-main.80/)  
+**Weiming Zhang\***, Qingyao Li*, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
+*The 2025 Conference on Empirical Methods in Natural Language Processing (**EMNLP 2025**)*
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+## AI Education
+
+[**LLM4CD: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis**](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)  
+**Weiming Zhang**, Lingyue Fu, Qingyao Li, Kounianhua Du, Jianghao Lin, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu  
+*The 34th ACM International Conference on Information and Knowledge Management (**CIKM 2025**)*
+
+<br>
+<small>(* denotes equal contribution)</small>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

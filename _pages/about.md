@@ -42,17 +42,17 @@ Jihong Wang, Jiamu Zhou, **Weiming Zhang**, Weiwen Liu, Zhuosheng Zhang, Xingyu 
 *Preprint on arXiv, 2026*
 
 [**ColorAgent: Building A Robust, Personalized, and Interactive OS Agent**](https://arxiv.org/abs/2510.19386)  
-Ning Li*, Qiqiang Lin*, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang  
+Ning Li\*, Qiqiang Lin\*, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang  
 *Preprint on arXiv, 2025*
 
 ## LLM for Code
 
 [**NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging**](https://aclanthology.org/2025.emnlp-main.80/)  
-**Weiming Zhang\***, Qingyao Li*, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
+**Weiming Zhang\***, Qingyao Li\*, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
 *The 2025 Conference on Empirical Methods in Natural Language Processing (**EMNLP 2025**)*
 
 [**LogitsCoder: Towards Efficient Chain-of-Thought Path Search via Logits Preference Decoding for Code Generation**](https://arxiv.org/abs/2602.14054)  
-Jizheng Chen*, **Weiming Zhang\***, Xinyi Dai, Weiwen Liu, Kounianhua Du, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
+Jizheng Chen\*, **Weiming Zhang\***, Xinyi Dai, Weiwen Liu, Kounianhua Du, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
 *Preprint on arXiv, 2026*
 
 [**DebateCoder: Towards Collective Intelligence of LLMs via Test Case Driven LLM Debate for Code Generation**](https://aclanthology.org/2025.acl-long.589/)  

@@ -77,16 +77,18 @@ Qingyao Li, Lingyue Fu, **Weiming Zhang**, Xianyu Chen, Jingwei Yu, Wei Xia, Wei
 <small>(* denotes equal contribution)</small>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025*, **National Scholarship** (Highest honor for graduate students in China).
+- *2024*, **Outstanding Graduate** of Shanghai Jiao Tong University.
+- *2022*, **Huawei Scholarship**.
+- *2021, 2022, 2023*, **Academic Excellence Scholarship** of SJTU.
+- *2021*, **First Prize**, The National College Mathematics Competition (Shanghai Division) (Ranked Top 16 in Shanghai).
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09 - Present*, M.Sc. in Computer Science and Technology, **Shanghai Jiao Tong University**.
+- *2020.09 - 2024.06*, B.Eng. in Computer Science and Technology, **Shanghai Jiao Tong University**.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2025.07 - Present*, Research Intern, Data Intelligence Department, [OPPO Research Institute](https://www.oppo.com/en/research/), China.
+- *2024.01 - 2025.06*, Research Intern, [Huawei Noah's Ark Lab](https://www.noahlab.com.hk/), China.

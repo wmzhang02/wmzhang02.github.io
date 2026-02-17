@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Weiming Zhang"
-description              : "Weiming Zhang studies in Shanghai Jiao Tong University. "
+# 网站描述（SEO用）：更加正式，包含全名、学校缩写和全称
+description              : "Personal academic website of Weiming Zhang, a Master's student at Shanghai Jiao Tong University (SJTU)."
 repository               : "wmzhang02/wmzhang02.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,11 +24,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Weiming Zhang"
   avatar           : "images/profile.jpg"
-  bio              : "Weiming Zhang is a Master student in Shanghai Jiao Tong University. He is interested in machine learning, data mining, and natural language processing."
+  # Bio（侧边栏）：简练、关键词化。避免使用第三人称长句，节省空间且更现代。
+  bio              : "Master's Student @ SJTU (APEX Lab). Focus on LLM Agents, Reasoning, and Data Mining."
   location         : "Shanghai, China"
-  employer         :
+  employer         : "Shanghai Jiao Tong University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=54ZsohAAAAAJ"
+  # ⚠️ 注意：请确认这个 ID 是您自己的，如果不是请留空，否则会显示别人的引用数据
+  googlescholar    : "https://scholar.google.com/citations?user=REPLACE_WITH_YOUR_ID" 
   email            : "WeimingZhang_2020@sjtu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -37,7 +40,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yevzh.github.com"
+  # ⚠️ 注意：根据您的 repository 名字，我推测您的 ID 是 wmzhang02，原先的 yevzh 可能是模板作者的
+  github           : "yevzh"
   google_plus      :
   keybase          :
   instagram        :

@@ -23,15 +23,21 @@ My research interests primarily focus on **(M)LLM-based Agents**, **LLM Reasonin
 
 <!-- My research interests primarily focus on (M)LLM-based Agent, LLM Reasoning, and Data Mining. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>google scholar citations <strong><span id='total_cit'>100+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
-
 # 🔥 News
-- *2025.10*: Our technical report about OS agent "[**ColorAgent**: Building A Robust, Personalized, and Interactive OS Agent](https://arxiv.org/abs/2510.19386)" has been released on arXiv.
-- *2025.08*: Our paper "[**NL-Debugging**: Exploiting Natural Language as an Intermediate Representation for Code Debugging](https://aclanthology.org/2025.emnlp-main.80/)" is accepted to **EMNLP 2025**! See you in Suzhou, China! 🇨🇳
-- *2025.08*: Our paper "[**LLM4CD**: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)" is accepted to **CIKM 2025**! See you in Seoul, South Korea! 🇰🇷
+
+- *2026.04*: Our paper "[**ColorBrowserAgent**: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)" is accepted to **ACL 2026** Industry Track as an **Oral Presentation**!
+- *2026.04*: Our review paper "[**Externalization in LLM Agents**: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224)" has been released on arXiv!
+- *2025.10*: Our technical report about OS agent "[**ColorAgent**: Building A Robust, Personalized, and Interactive OS Agent](https://arxiv.org/abs/2510.19386)" has been released on arXiv!
+- *2025.08*: Our paper "[**NL-Debugging**: Exploiting Natural Language as an Intermediate Representation for Code Debugging](https://aclanthology.org/2025.emnlp-main.80/)" is accepted to **EMNLP 2025** as an **Oral Presentation**! See you in Suzhou, China! 🇨🇳
+- *2025.08*: Our paper "[**LLM4CD**: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)" is accepted to **CIKM 2025** as an **Oral Presentation**! See you in Seoul, South Korea! 🇰🇷
 
 # 📝 Publications
 
 ## (M)LLM Agents
+
+[**Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering**](https://arxiv.org/abs/2604.08224)  
+Chenyu Zhou\*, Huacan Chai\*, Wenteng Chen\*, Zihan Guo\*, Rong Shan\*, Yuanyi Song\*, Tianyi Xu\*, Yingxuan Yang\*, Aofan Yu\*, **Weiming Zhang\***, Congming Zheng\*, Jiachen Zhu\*, Zeyu Zheng, Zhuosheng Zhang, Xingyu Lou, Changwang Zhang, Zhihui Fu, Jun Wang, Weiwen Liu, Jianghao Lin, Weinan Zhang  
+*Preprint on arXiv, 2026*
 
 [**Plan-MCTS: Plan Exploration for Action Exploitation in Web Navigation**](https://arxiv.org/abs/2602.14083)  
 **Weiming Zhang**, Jihong Wang, Jiamu Zhou, Qingyao Li, Xinbei Ma, Congmin Zheng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Jun Wang, Yong Yu, Weinan Zhang  
@@ -39,17 +45,17 @@ My research interests primarily focus on **(M)LLM-based Agents**, **LLM Reasonin
 
 [**ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution**](https://arxiv.org/abs/2601.07262)  
 Jihong Wang, Jiamu Zhou, **Weiming Zhang**, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang  
-*Preprint on arXiv, 2026*
+*The 64th Annual Meeting of the Association for Computational Linguistics (**ACL 2026**) Industry Track* **(Oral Presentation)**
 
 [**ColorAgent: Building A Robust, Personalized, and Interactive OS Agent**](https://arxiv.org/abs/2510.19386)  
 Ning Li\*, Qiqiang Lin\*, Zheng Wu, Xiaoyun Mo, **Weiming Zhang**, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang  
-*Preprint on arXiv, 2025*
+*Technical Report, 2025*
 
 ## LLM for Code
 
 [**NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging**](https://aclanthology.org/2025.emnlp-main.80/)  
 **Weiming Zhang\***, Qingyao Li\*, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
-*The 2025 Conference on Empirical Methods in Natural Language Processing (**EMNLP 2025**)*
+*The 2025 Conference on Empirical Methods in Natural Language Processing (**EMNLP 2025**)* **(Oral Presentation)**
 
 [**LogitsCoder: Towards Efficient Chain-of-Thought Path Search via Logits Preference Decoding for Code Generation**](https://arxiv.org/abs/2602.14054)  
 Jizheng Chen\*, **Weiming Zhang\***, Xinyi Dai, Weiwen Liu, Kounianhua Du, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang  
@@ -67,12 +73,11 @@ Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, **Weiming Zhang**, Longteng 
 
 [**LLM4CD: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis**](https://dl.acm.org/doi/abs/10.1145/3746252.3761321)  
 **Weiming Zhang**, Lingyue Fu, Qingyao Li, Kounianhua Du, Jianghao Lin, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu  
-*The 34th ACM International Conference on Information and Knowledge Management (**CIKM 2025**)*
+*The 34th ACM International Conference on Information and Knowledge Management (**CIKM 2025**)* **(Oral Presentation)**
 
 [**Adapting large language models for education: Foundational capabilities, potentials, and challenges**](https://arxiv.org/abs/2401.08664)  
 Qingyao Li, Lingyue Fu, **Weiming Zhang**, Xianyu Chen, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu  
 *Preprint on arXiv, 2024*
-
 <!-- <br>
 <small>(* denotes equal contribution)</small> -->
 

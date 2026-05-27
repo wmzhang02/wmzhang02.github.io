@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a second-year Master's student at the School of Computer Science, Shanghai Jiao Tong University (SJTU). I am a member of the <a href="https://apex.sjtu.edu.cn/">APEX Lab</a>, privileged to be advised by <a href="https://apex.sjtu.edu.cn/members/yyu">Prof. Yong Yu</a> and <a href="https://wnzhang.net/">Prof. Weinan Zhang</a>. Prior to this, I obtained my Bachelor's degree in Computer Science and Technology from SJTU in 2024.
 
-My research interests primarily focus on **(M)LLM-based Agents**, **LLM Reasoning**, and **Data Mining**. You can find my publications on <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>Google Scholar</a>.
+My research interests center on **Long-Horizon Capabilities of (M)LLM-based Agents**, with a focus on **Code Agents** and **GUI Agents**. My past work also covers **LLM Reasoning** and **Data Mining**. You can find my publications on <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>Google Scholar</a>. I am currently seeking internship opportunities to enhance the long-horizon agent capabilities of foundational LLMs.
 
 <!-- My research interests primarily focus on (M)LLM-based Agent, LLM Reasoning, and Data Mining. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'>google scholar citations <strong><span id='total_cit'>100+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=54ZsohAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -95,5 +95,6 @@ Qingyao Li, Lingyue Fu, **Weiming Zhang**, Xianyu Chen, Jingwei Yu, Wei Xia, Wei
 
 
 # 💻 Internships
-- *2025.07 - Present*, Research Intern, Data Intelligence Department, [OPPO Research Institute](https://www.oppo.com/en/research/), China.
+- *2026.05 - Present*, Research Intern, GLM Group, AI Institute,  [Zhipu(Z.ai)](https://www.zhipuai.cn/), China.
+- *2025.07 - 2026.04*, Research Intern, Data Intelligence Department, [OPPO Research Institute](https://www.oppo.com/en/research/), China.
 - *2024.01 - 2025.06*, Research Intern, [Huawei Noah's Ark Lab](https://www.noahlab.com.hk/), China.

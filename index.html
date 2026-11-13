@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weiming Zhang</title>
+  <meta name="description" content="Personal academic website of Weiming Zhang, a Master's student at Shanghai Jiao Tong University (SJTU), working on long-horizon LLM agents.">
+  <meta name="author" content="Weiming Zhang">
+  <meta property="og:title" content="Weiming Zhang">
+  <meta property="og:description" content="Master's student at SJTU APEX Lab. Long-horizon Code Agents and GUI Agents.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wmzhang02.github.io/">
+  <meta property="og:image" content="https://wmzhang02.github.io/images/profile.jpg">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://wmzhang02.github.io/">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<nav class="topnav" aria-label="Sections">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Back to top">Mi</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#publications">Publications</a>
+      <a href="#honors">Honors</a>
+      <a href="#education">Education</a>
+      <a href="#miscs">Miscs</a>
+    </div>
+    <div class="tools">
+      <input id="search" type="search" placeholder="Search  /" aria-label="Search this page" autocomplete="off" spellcheck="false">
+      <button id="theme-toggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme"></button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+
+  <header class="hero">
+    <img class="avatar" src="images/profile.jpg" alt="Portrait of Weiming Zhang" width="168" height="168">
+    <div class="hero-text">
+      <h1>Weiming Zhang <span class="zh" lang="zh-CN">张卫鸣</span></h1>
+      <p class="tagline">Z.ai GLM · Shanghai Jiao Tong University</p>
+      <ul class="contact">
+        <li><a href="mailto:WeimingZhang_2020@sjtu.edu.cn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a></li>
+        <li><a href="tel:+8618951049175"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>(+86) 18951049175</a></li>
+        <li><a href="https://scholar.google.com/citations?user=54ZsohAAAAAJ"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2.5 9 2.5 12 0v-5"/><path d="M22 10v6"/></svg>Google Scholar</a></li>
+        <li><a href="https://github.com/yevzh"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span>About</h2>
+    <p>
+      I am a Master's student at the School of Computer Science, Shanghai Jiao Tong University (SJTU).
+      I am a member of the <a href="https://apex.sjtu.edu.cn/">APEX Lab</a>, privileged to be advised by
+      <a href="https://apex.sjtu.edu.cn/members/yyu">Prof. Yong Yu</a> and
+      <a href="https://wnzhang.net/">Prof. Weinan Zhang</a>.
+      Prior to this, I obtained my Bachelor's degree in Computer Science and Technology from SJTU in 2024.
+    </p>
+    <p>My research focuses on <strong>foundation model post-training</strong> and <strong>code intelligence</strong>. Specifically:</p>
+    <ul class="interests">
+      <li>
+        <strong>Agentic Coding Post-training</strong>
+        <span>Training code agents with reinforcement learning and execution feedback in realistic software environments, so that they can plan, navigate large repositories, and complete long-horizon software tasks.</span>
+      </li>
+      <li>
+        <strong>Multi-Agent Systems</strong>
+        <span>Improving how frontier models collaborate, delegate, and aggregate findings inside multi-agent harnesses, so that agent teams can solve complex long-horizon problems beyond the reach of a single agent.</span>
+      </li>
+      <li>
+        <strong>Test-time Scaling of LLMs</strong>
+        <span>Decoupling planning from execution: spending extra inference compute on searching and refining natural-language thoughts and plans rather than raw code or actions, with execution feedback as verification.</span>
+      </li>
+    </ul>
+    <p class="connect">I'm always happy to connect — feel free to reach out to discuss research or collaborations at <span class="addr">WeimingZhang_2020[at]sjtu[dot]edu[dot]cn</span>.</p>
+  </section>
+
+  <section id="news">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>News</h2>
+    <ul class="rows">
+      <li>
+        <span class="date">2026.08</span>
+        <span><a href="https://arxiv.org/abs/2602.14054"><strong>LogitsCoder</strong></a> is accepted to <strong>EMNLP 2026</strong> (Findings). See you in Budapest, Hungary!</span>
+      </li>
+      <li>
+        <span class="date">2026.04</span>
+        <span>Joined the <strong>GLM post-training team</strong> at <a href="https://z.ai">Z.ai</a>, contributing to the flagship foundation models <a href="https://docs.z.ai/guides/llm/glm-5.2"><strong>GLM-5.2</strong></a> and <a href="https://docs.z.ai/guides/llm/glm-5.3"><strong>GLM-5.3</strong></a>, mainly on multi-agent and long-horizon coding.</span>
+      </li>
+      <li>
+        <span class="date">2025.08</span>
+        <span><a href="https://aclanthology.org/2025.emnlp-main.80/"><strong>NL-Debugging</strong></a> is accepted to <strong>EMNLP 2025</strong> as an <strong>Oral Presentation</strong>. See you in Suzhou, China!</span>
+      </li>
+      <li>
+        <span class="date">2025.08</span>
+        <span><a href="https://dl.acm.org/doi/abs/10.1145/3746252.3761321"><strong>LLM4CD</strong></a> is accepted to <strong>CIKM 2025</strong> as an <strong>Oral Presentation</strong>. See you in Seoul, South Korea!</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="experiences">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg></span>Experiences</h2>
+    <ul class="rows">
+      <li>
+        <span class="date">2026.05 – Present</span>
+        <span>
+          <a href="https://z.ai"><strong>Z.ai (Zhipu AI)</strong></a> · Post-training Team<br>
+          <span class="muted">Research Intern · Contributor to <a href="https://docs.z.ai/guides/llm/glm-5.2">GLM-5.2</a>, <a href="https://docs.z.ai/guides/llm/glm-5.3">GLM-5.3</a> and <a href="https://docs.z.ai/guides/llm/glm-5.3-flash">GLM-5.3-Flash</a></span><br>
+          <span class="scope">Agentic Coding &amp; LLM Post-training</span>
+        </span>
+      </li>
+      <li>
+        <span class="date">2025.07 – 2026.04</span>
+        <span>
+          <a href="https://www.oppo.com/en/research/"><strong>OPPO Research Institute</strong></a> · Data Intelligence Department<br>
+          <span class="muted">Research Intern · Contributor to <a href="https://huggingface.co/MadeAgents/ColorGUI-32B">ColorGUI-32B</a></span><br>
+          <span class="scope">GUI Agent &amp; LLM Post-training</span>
+        </span>
+      </li>
+      <li>
+        <span class="date">2024.01 – 2025.06</span>
+        <span>
+          <a href="https://www.noahlab.com.hk/"><strong>Huawei Noah's Ark Lab</strong></a><br>
+          <span class="muted">Research Intern</span><br>
+          <span class="scope">Code Generation &amp; LLM Reasoning</span>
+        </span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21a2 2 0 0 0 2 2h13v-4"/><path d="M9 8h6M9 12h4"/></svg></span>Publications</h2>
+    <p class="note">* denotes equal contribution.</p>
+
+    <div class="group">
+    <h3>(M)LLM Agents</h3>
+    <ol class="pubs">
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2602.14083">Plan-MCTS: Plan Exploration for Action Exploitation in Web Navigation</a>
+        <p class="authors"><strong>Weiming Zhang</strong>, Jihong Wang, Jiamu Zhou, Qingyao Li, Xinbei Ma, Congmin Zheng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Jun Wang, Yong Yu, Weinan Zhang</p>
+        <p class="venue"><span class="tag">arXiv 2026</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2601.07262">ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution</a>
+        <p class="authors">Jihong Wang, Jiamu Zhou, <strong>Weiming Zhang</strong>, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang</p>
+        <p class="venue"><span class="tag accent">ACL 2026 Industry</span><span class="tag oral">Oral</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2604.08224">Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering</a>
+        <p class="authors">Chenyu Zhou*, Huacan Chai*, Wenteng Chen*, Zihan Guo*, Rong Shan*, Yuanyi Song*, Tianyi Xu*, Yingxuan Yang*, Aofan Yu*, <strong>Weiming Zhang*</strong>, Congming Zheng*, Jiachen Zhu*, Zeyu Zheng, Zhuosheng Zhang, Xingyu Lou, Changwang Zhang, Zhihui Fu, Jun Wang, Weiwen Liu, Jianghao Lin, Weinan Zhang</p>
+        <p class="venue"><span class="tag">arXiv 2026</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2610.17900">PaceReasoner: Label-Free Learning to Answer Briefly from Long Reasoning</a>
+        <p class="authors">Changguo Jia, Zhiyou Xiao, Xinbei Ma, Geng Chen, <strong>Weiming Zhang</strong>, Yiming Xu, Tianqi Zhao, Minghui Zhou</p>
+        <p class="venue"><span class="tag">arXiv 2026</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2607.27733">VeriSkill: A Self-Evolution Framework for Program Verification Skills</a>
+        <p class="authors">Changguo Jia, Tianqi Zhao, Zhiyou Xiao, <strong>Weiming Zhang</strong>, Minghui Zhou</p>
+        <p class="venue"><span class="tag">arXiv 2026</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2510.19386">ColorAgent: Building A Robust, Personalized, and Interactive OS Agent</a>
+        <p class="authors">Ning Li*, Qiqiang Lin*, Zheng Wu, Xiaoyun Mo, <strong>Weiming Zhang</strong>, Yin Zhao, Xiangmou Qu, Jiamu Zhou, Jun Wang, Congmin Zheng, Yuanyi Song, Hongjiang Chen, Heyuan Huang, Jihong Wang, Jiaxin Yin, Jingwei Yu, Junwei Liao, Qiuying Peng, Xingyu Lou, Weiwen Liu, Zhuosheng Zhang, Weinan Zhang</p>
+        <p class="venue"><span class="tag">Technical Report 2025</span></p>
+      </li>
+    </ol>
+    </div>
+
+    <div class="group">
+    <h3>LLM for Code</h3>
+    <ol class="pubs">
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2602.14054">LogitsCoder: Towards Efficient Chain-of-Thought Path Search via Logits Preference Decoding for Code Generation</a>
+        <p class="authors">Jizheng Chen*, <strong>Weiming Zhang*</strong>, Xinyi Dai, Weiwen Liu, Kounianhua Du, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang</p>
+        <p class="venue"><span class="tag accent">EMNLP 2026 Findings</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://aclanthology.org/2025.emnlp-main.80/">NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging</a>
+        <p class="authors"><strong>Weiming Zhang*</strong>, Qingyao Li*, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang</p>
+        <p class="venue"><span class="tag accent">EMNLP 2025</span><span class="tag oral">Oral</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://aclanthology.org/2025.acl-long.589/">DebateCoder: Towards Collective Intelligence of LLMs via Test Case Driven LLM Debate for Code Generation</a>
+        <p class="authors">Jizheng Chen, Kounianhua Du, Xinyi Dai, <strong>Weiming Zhang</strong>, Xihuai Wang, Yasheng Wang, Ruiming Tang, Weinan Zhang, Yong Yu</p>
+        <p class="venue"><span class="tag accent">ACL 2025</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2309.01940">CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models</a>
+        <p class="authors">Lingyue Fu, Huacan Chai, Shuang Luo, Kounianhua Du, <strong>Weiming Zhang</strong>, Longteng Fan, Jiayi Lei, Renting Rui, Jianghao Lin, Yuchen Fang, Yifan Liu, Jingkuan Wang, Siyuan Qi, Kangning Zhang, Weinan Zhang, Yong Yu</p>
+        <p class="venue"><span class="tag">arXiv 2024</span></p>
+      </li>
+    </ol>
+    </div>
+
+    <div class="group">
+    <h3>AI Education</h3>
+    <ol class="pubs">
+      <li>
+        <a class="title" href="https://dl.acm.org/doi/abs/10.1145/3746252.3761321">LLM4CD: Leveraging Large Language Models for Open-World Knowledge Augmented Cognitive Diagnosis</a>
+        <p class="authors"><strong>Weiming Zhang</strong>, Lingyue Fu, Qingyao Li, Kounianhua Du, Jianghao Lin, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu</p>
+        <p class="venue"><span class="tag accent">CIKM 2025</span><span class="tag oral">Oral</span></p>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2401.08664">Adapting Large Language Models for Education: Foundational Capabilities, Potentials, and Challenges</a>
+        <p class="authors">Qingyao Li, Lingyue Fu, <strong>Weiming Zhang</strong>, Xianyu Chen, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu</p>
+        <p class="venue"><span class="tag">arXiv 2024</span></p>
+      </li>
+    </ol>
+    </div>
+  </section>
+
+  <section id="honors">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4"/><path d="M12 13v4M8 20h8M10 17h4v3h-4z"/></svg></span>Honors &amp; Awards</h2>
+    <ul class="rows">
+      <li><span class="date">2025</span><span><strong>National Scholarship</strong> for graduate students</span></li>
+      <li><span class="date">2025 – 2026</span><span><strong>Graduate Academic Excellence Scholarship</strong>, SJTU (two consecutive years)</span></li>
+      <li><span class="date">2024</span><span><strong>Outstanding Graduate</strong> of Shanghai Jiao Tong University</span></li>
+      <li><span class="date">2022</span><span><strong>Huawei Scholarship</strong></span></li>
+      <li><span class="date">2021 – 2023</span><span><strong>Undergraduate Academic Excellence Scholarship</strong>, SJTU (three consecutive years)</span></li>
+      <li><span class="date">2021</span><span><strong>First Prize</strong>, National College Mathematics Competition, Shanghai Division (top 16 in Shanghai)</span></li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2.5 9 2.5 12 0v-5"/><path d="M22 10v6"/></svg></span>Education</h2>
+    <ul class="rows">
+      <li>
+        <span class="date">2024.09 – Present</span>
+        <span><strong>Shanghai Jiao Tong University</strong><br><span class="muted">M.Sc. in Computer Science and Technology · APEX Lab</span></span>
+      </li>
+      <li>
+        <span class="date">2020.09 – 2024.06</span>
+        <span><strong>Shanghai Jiao Tong University</strong><br><span class="muted">B.Eng. in Computer Science and Technology</span></span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="miscs">
+    <h2><span class="sec-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l11-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></svg></span>Miscs</h2>
+    <ul class="miscs">
+      <li><span class="emoji" aria-hidden="true">🎹</span><span><strong>Piano</strong> — trained to the performance level (演奏级). I love playing and improvising on pop music, and I care most about musical expression. I'm also fond of Animenz's anime music arrangements.</span></li>
+      <li><span class="emoji" aria-hidden="true">🎤</span><span><strong>Singing</strong> — a regular (and a bit of a mic hog) at KTV. I love Cantonese songs, and Eason Chan and Faye Wong are always on my playlist.</span></li>
+      <li><span class="emoji" aria-hidden="true">🧭</span><span><strong>Travel</strong> — I enjoy citywalks to feel the character of different cities, and I'm drawn to both history and culture and natural scenery.</span></li>
+    </ul>
+    <p class="misc-note"><span aria-hidden="true">📺</span> You can find my piano videos and life vlogs on <a href="https://space.bilibili.com/691582981"><strong>Bilibili</strong></a> <span aria-hidden="true">✨</span></p>
+  </section>
+
+  <p id="no-results" hidden>No matches on this page.</p>
+
+  <footer>
+    <div class="foot-text">
+      <span>© 2026 Weiming Zhang</span>
+      <span>last updated 2026.11</span>
+    </div>
+    <div class="visitor-map">
+      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=mI4ALypaNJRE_spQUEvQtB1n11BBYK4LlfNs4J2x__w&amp;cl=ffffff&amp;w=a"></script>
+    </div>
+  </footer>
+
+</main>
+</body>
+</html>
